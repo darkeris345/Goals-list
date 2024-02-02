@@ -1,0 +1,12 @@
+.card-list {
+  max-height: 710px;
+  overflow-y: auto;
+}
+
+.card-list::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+.card-list::-webkit-scrollbar-thumb:hover {
+    background: #6b6b6b70;
+  }
