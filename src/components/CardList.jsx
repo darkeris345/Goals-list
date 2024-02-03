@@ -51,7 +51,11 @@ function CardList({ goalsList, deleteGoal, editGoal }) {
           {editingGoal === goal ? (
             <>
               <ListItemIcon>
-                <DoneIcon onClick={() => handleEditSave(goal)} />
+                <DoneIcon
+                  style={{ fontSize: "2rem" }}
+                  className="done"
+                  onClick={() => handleEditSave(goal)}
+                />
               </ListItemIcon>
               <ListItemText
                 primary={
@@ -59,8 +63,8 @@ function CardList({ goalsList, deleteGoal, editGoal }) {
                     type="text"
                     style={{
                       fontSize: "1rem",
-                      marginLeft: "3rem",
-                      width: "80%",
+                      marginLeft: "1rem",
+                      width: "75%",
                       backgroundColor: "transparent",
                       border: "none",
                     }}
@@ -83,9 +87,9 @@ function CardList({ goalsList, deleteGoal, editGoal }) {
               primary={goal}
             />
           )}
-          <ListItemIcon>
-            <EditIcon onClick={() => handleEditClick(goal)} />
-            <DeleteIcon onClick={() => deleteGoal(goal)} />
+          <ListItemIcon className="icons">
+            <EditIcon className="edit" onClick={() => handleEditClick(goal)} />
+            <DeleteIcon className="delete" onClick={() => deleteGoal(goal)} />
           </ListItemIcon>
         </ListItemButton>
       </ListItem>
