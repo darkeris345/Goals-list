@@ -37,8 +37,7 @@ The Goals List App is a simple web application that allows users to create, edit
    npm run dev
    ```
 
-
-##Author
+## Author
 
 - [Me](https://github.com/darkeris345)
 
