@@ -39,5 +39,5 @@ The Goals List App is a simple web application that allows users to create, edit
 
 ## Author
 
-- [Me](https://github.com/darkeris345)
+- [Dmitrij](https://github.com/darkeris345)
 
