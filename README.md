@@ -18,6 +18,10 @@ The Goals List App is a simple web application that allows users to create, edit
 - **Material-UI:** A React UI framework that provides a set of pre-designed components.
 - **localStorage:** Used for storing goals locally in the user's browser.
 
+## You can try it yoursel 
+
+- [link](https://goals-list-one.vercel.app/)
+
 ## Getting Started
 
 1. Clone the repository.
